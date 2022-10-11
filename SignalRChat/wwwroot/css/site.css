@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.chatSection section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.massageContainer {
+    word-wrap: break-word;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#sendButton
+{
+    float:right;
+}
+#chat {
+    border: solid;
+    border-color: darkslategrey;
+    border-width: 1px;
+    border-radius: 5px;
+    min-height: 150px;
+    margin-bottom: 1%;
+    padding-inline:5px;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #b4e0ed;
+    margin-left: 70%;
+}
+
+.messageContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.name-right {
+    color: #aaa;
+    text-align: right;
+}
+
+.name-left {
+    color: #999;
+    margin-right: 5px;
+}
